@@ -1,0 +1,10 @@
+﻿Console.Write("Введите C:");
+double C = double.Parse(Console.ReadLine());
+Console.Write("Введите L:");
+double L = double.Parse(Console.ReadLine());
+double T = 2 * Math.PI * Math.Sqrt(C * L);
+double v = 1 / T;
+Console.WriteLine($"Емкость конденсатора = {C:F2}");
+Console.WriteLine($"Индуктивность = {L:F2}");
+Console.WriteLine($"Период = {T:F2}");
+Console.WriteLine($"Частота колебаний в контуре = {v:F2}");
